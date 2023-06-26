@@ -46,6 +46,15 @@ export const Home = () => {
             <br/>
             <li>Git branch "branchName"</li>
             <p>Create a new branch</p> 
+            <br/>
+            <li>Git remote update -{'>'} Git status -uno</li>
+            <p>Check if local is up to date. Check's if current branch is ahead or behind of the remote repository</p> 
+            <br/>
+            <li>Git branch -d "branchName"</li>
+            <p>Delete a branch locally</p> 
+            <br/>
+            <li>Git push {"<"}remote-repo-name{">"} --delete {"<"}branch-name{">"}</li>
+            <p>Delete a remote branch</p> 
         </ul>
         {/* <img src={dtImage} alt="dt" className="dt-image" /> Add this line to display the image */}
     </div>
