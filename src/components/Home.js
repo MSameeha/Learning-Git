@@ -47,6 +47,9 @@ export const Home = () => {
             <li>Git branch "branchName"</li>
             <p>Create a new branch</p> 
             <br/>
+            <li>git checkout -b "branchName"</li>
+            <p>Creating and checking out to the branch</p>
+            <br/>
             <li>Git remote update -{'>'} Git status -uno</li>
             <p>Check if local is up to date. Check's if current branch is ahead or behind of the remote repository</p> 
             <br/>
